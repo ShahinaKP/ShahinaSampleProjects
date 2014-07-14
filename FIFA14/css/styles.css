@@ -1,0 +1,199 @@
+@font-face {
+	font-family: 'MyriadPro';
+	font-style: normal;
+	font-weight: normal;
+	src:url('assets/fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: 'CalibriBold';
+    font-style: normal;
+    font-weight: normal;
+    src:url('../assets/fonts/calibri/calibrib.ttf');
+}
+
+body {
+	background: url(../assets/images/wallpapers/bg00.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*#wrapper {
+    background-image: url(../assets/images/wallpapers/fifa-world-cup-wallpaper-hd3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}*/
+
+nav {
+	cursor: pointer;
+    float: left;
+    padding-top: 30%;
+    width: 8%;
+}
+
+#mainNav ul {
+    text-decoration: none;
+    width: 100%;
+}
+
+#mainNav li {
+	list-style-type: none;
+	background-color: #000000;
+	/*margin: 5px;*/
+	padding: 5px;
+	text-align: center;    
+	font-weight: bold;
+	color: #00ff00;
+    width: 100%;
+}
+
+#mainNav li:hover {
+	background-color: #00ff00;
+	color: #000000;
+}
+
+#mainNav li:active {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+#mainNav a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+#mainContent {
+    float: left;
+    width: 92%;
+}
+.mainView {
+    float: left;
+    /*padding: 100px 0 100px 25px;   */
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+#flags {
+
+}
+
+#teamContainer {
+	font: 10px/13px 'Lucida Sans',sans-serif;   	
+    position: relative;
+}
+
+#flagThumbWrapper {
+	margin: 10px;
+    overflow: hidden;
+    padding: 100px 0 100px 25px;   
+}
+
+.box {
+    cursor: pointer;
+    float: left;
+    padding-bottom: 10%;
+    position: relative;
+    width: 12%;
+}
+.boxInner {
+    bottom: 10px;
+    left: 20px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+.boxInner img {
+    width: 100%;
+}
+.boxInner .titleBox {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    /*margin-bottom: -50px;*/
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+   /* transition: all 0.3s ease-out 0s;*/
+}
+
+#playersContainer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.nameDiv {
+     position: absolute;
+    width:100%;
+}
+
+.nameDiv span {
+    font-family: 'CalibriBold';
+    font-size: 40px;
+    color: #fff;
+}
+
+.playerBox {
+    /*margin: 20px;*/
+    width: 90%;
+}
+
+.playerBox img {
+    margin-left: 4%;
+    width: 100%;
+}
+
+#scheduleContainer {
+    width: 100%;
+    height: 100%
+}
+
+.scheduleBox {
+    margin: 20px;
+    width: 90%;
+    height: 100%;
+}
+
+.scheduleBox img{
+    margin-left: 4%;
+    width: 100%;
+}
+
+
+.boxInner .titleBox:hover {
+    transition: all 0.3s ease-out 0s;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 480px) {
+.box {
+   /* padding-bottom: 100%;*/
+    width: 48%;
+    }
+}
+@media only screen and (max-width: 650px) and (min-width: 481px) {
+.box {
+    /*padding-bottom: 50%;*/
+    width: 25%;
+    }
+}
+@media only screen and (max-width: 1050px) and (min-width: 651px) {
+.box {
+    /*padding-bottom: 33.3%;*/
+    width: 18%;
+    }
+}
+@media only screen and (max-width: 1290px) and (min-width: 1051px) {
+.box {
+    /*padding-bottom: 25%;*/
+    width: 12%;
+    }
+}

@@ -1,0 +1,16 @@
+<div  id="teamContainer" >
+    <div id="flagThumbWrapper">
+        <!-- <ul id="flagThumbList"> -->
+            <!-- <li ng-repeat="team in teams" > -->
+               <!--  <img ng-src="{{'assets/images/flag/'+team.flag}}" > -->
+                
+             <!-- </li>
+        </ul> -->
+        <div class="box" ng-repeat="team in teams" >
+	      <div class="boxInner" ng-click="getMyTeam(team.name)">
+	        <img ng-src="{{'assets/images/flag/'+team.flag}}" >
+	        <div class="titleBox">{{team.name}}</div>
+	      </div>
+	    </div>
+    </div>
+</div>

@@ -1,0 +1,194 @@
+[
+	{
+		"name" : "Algeria", 
+		"flag" : "Algeria.png", 
+		"squad" : "Algeria.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Argentina", 
+		"flag" : "Argentina.jpg", 
+		"squad" : "Argentina.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Australia", 
+		"flag" : "Australia.jpg", 
+		"squad" : "Australia.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Belgium", 
+		"flag" : "Belgium.jpg", 
+		"squad" : "Belgium.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "BosniaHerzegovina", 
+		"flag" : "BosniaHerzegovina.jpg", 
+		"squad" : "BosniaHerzegovina.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Brazil", 
+		"flag" : "Brazil.jpg", 
+		"squad" : "Brazil.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Cameroon", 
+		"flag" : "Cameroon.jpg", 
+		"squad" : "Cameroon.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Chili", 
+		"flag" : "Chili.jpg", 
+		"squad" : "Chili.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Colombia", 
+		"flag" : "Colombia.jpg", 
+		"squad" : "Colombia.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "CostaRica", 
+		"flag" : "CostaRica.jpg", 
+		"squad" : "CostaRica.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Croatia", 
+		"flag" : "Croatia.jpg", 
+		"squad" : "Croatia.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Ecuador", 
+		"flag" : "Ecuador.jpg", 
+		"squad" : "Ecuador.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "England", 
+		"flag" : "England.jpg", 
+		"squad" : "England.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "France", 
+		"flag" : "France.jpg", 
+		"squad" : "France.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Germany", 
+		"flag" : "Germany.jpg", 
+		"squad" : "Germany.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Ghana", 
+		"flag" : "Ghana.jpg", 
+		"squad" : "Ghana.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Greece", 
+		"flag" : "Greece.jpg", 
+		"squad" : "Greece.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Honduras", 
+		"flag" : "Honduras.jpg", 
+		"squad" : "Honduras.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Iran", 
+		"flag" : "Iran.jpg", 
+		"squad" : "Iran.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Italy", 
+		"flag" : "Italy.jpg", 
+		"squad" : "Italy.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "ivory_coast", 
+		"flag" : "ivory_coast.jpg", 
+		"squad" : "ivory_coast.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Japan", 
+		"flag" : "Japan.jpg", 
+		"squad" : "Japan.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Mexico", 
+		"flag" : "Mexico.jpg", 
+		"squad" : "Mexico.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Netherlands", 
+		"flag" : "Netherlands.jpg", 
+		"squad" : "Netherlands.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Nigeria", 
+		"flag" : "Nigeria.jpg", 
+		"squad" : "Nigeria.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Portugal", 
+		"flag" : "Portugal.jpg", 
+		"squad" : "Portugal.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Russia", 
+		"flag" : "Russia.jpg", 
+		"squad" : "Russia.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "SouthKorea", 
+		"flag" : "SouthKorea.jpg", 
+		"squad" : "SouthKorea.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Spain", 
+		"flag" : "Spain.jpg", 
+		"squad" : "Spain.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Switzerland", 
+		"flag" : "Switzerland.jpg", 
+		"squad" : "Switzerland.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "Uruguay", 
+		"flag" : "Uruguay.jpg", 
+		"squad" : "Uruguay.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	},
+	{
+		"name" : "USA", 
+		"flag" : "USA.jpg", 
+		"squad" : "USA.jpg", 
+		"description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+	}	
+]
