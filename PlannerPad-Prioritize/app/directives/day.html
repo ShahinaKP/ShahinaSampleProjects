@@ -1,0 +1,7 @@
+<div class="day" ng-repeat="day in days | filter:day">
+	<span>{{day}}</span>
+	<ul>
+		<li ng-repeat="event in events">{{event.activity}}</li>
+		<li ng-hide="events.length">No activities</li>
+	</ul>
+</div>

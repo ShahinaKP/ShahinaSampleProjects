@@ -1,0 +1,67 @@
+[
+		{
+			"categoryId" : "1" ,       
+			"categoryName" : "Office",
+			"activities" : [
+			               { 
+			                      "activityId" : "1",
+			                      "activityName" : "PlannerPad team meeting",
+			                      "activityOrder" : "1"
+			                 },
+			               { 
+			                      "activityId" : "2",
+			                      "activityName" : "Review meeting",
+			                      "activityOrder" : "2"
+			                 }
+			            ]
+		},
+		{
+			"categoryId" : "2" ,       
+			"categoryName" : "School",
+			"activities" : [
+			               { 
+			                      "activityId" : "1",
+			                      "activityName" : "Team meeting",
+			                      "activityOrder" : "1"
+			                 },
+			               { 
+			                      "activityId" : "2",
+			                      "activityName" : "Meeting",
+			                      "activityOrder" : "2"
+			                 }
+			            ]
+		},
+		{
+			"categoryId" : "1" ,       
+			"categoryName" : "Office",
+			"activities" : [
+			               { 
+			                      "activityId" : "1",
+			                      "activityName" : "PlannerPad team meeting",
+			                      "activityOrder" : "1"
+			                 },
+			               { 
+			                      "activityId" : "2",
+			                      "activityName" : "Review meeting",
+			                      "activityOrder" : "2"
+			                 }
+			            ]
+		},
+		{
+			"categoryId" : "2" ,       
+			"categoryName" : "School",
+			"activities" : [
+			               { 
+			                      "activityId" : "1",
+			                      "activityName" : "Team meeting",
+			                      "activityOrder" : "1"
+			                 },
+			               { 
+			                      "activityId" : "2",
+			                      "activityName" : "Meeting",
+			                      "activityOrder" : "2"
+			                 }
+			            ]
+		}
+]
+

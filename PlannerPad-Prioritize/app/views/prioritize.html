@@ -1,0 +1,30 @@
+<div>
+	<div id="prioritizeTitle"  class="well">
+		<p class="pull-left">Prioritize Daily Things To Do</p>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="col-md-3">
+				<div id="leftList" ng-repeat="categories in categories">
+					<span>{{categories.categoryName}}</span>
+					<ul ui-sortable="sortableOptions" ng-model="categories.activities">				  
+					  <li ng-repeat="activities in categories.activities">
+					    <span>{{activities.activityName}}</span>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div ng-day></div>				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="box" ng-repeat="team in teams" >
+	<div class="boxInner" ng-click="getMyTeam(team.name)">
+		<img ng-src="{{'assets/images/flag/'+team.flag}}" >
+		<div class="titleBox">{{team.name}}</div>
+	</div>
+</div>
