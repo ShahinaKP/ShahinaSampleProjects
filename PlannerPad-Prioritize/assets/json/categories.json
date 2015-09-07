@@ -6,12 +6,14 @@
 			               { 
 			                      "activityId" : "1",
 			                      "activityName" : "PlannerPad team meeting",
-			                      "activityOrder" : "1"
+			                      "activityOrder" : "1",
+			                      "day" : "01/9/2015"
 			                 },
 			               { 
 			                      "activityId" : "2",
 			                      "activityName" : "Review meeting",
-			                      "activityOrder" : "2"
+			                      "activityOrder" : "2",
+			                      "day" : "31/8/2015"
 			                 }
 			            ]
 		},

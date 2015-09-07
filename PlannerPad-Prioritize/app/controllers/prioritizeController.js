@@ -14,7 +14,7 @@ plannerPad.controller('PrioritizeController' , ['$scope','currentWeekService','$
 	    }); 
 
         $scope.days = currentWeekService.getDays();
-	    $scope.events = [];	    
+	    /*$scope.events = [];	    
 
 	    $scope.sortableOptions = {
 			cursor: "move",
@@ -23,11 +23,11 @@ plannerPad.controller('PrioritizeController' , ['$scope','currentWeekService','$
 			},
 			stop: function(event, ui){
 				$(this).sortable('cancel');
-				$scope.events.push({
-					day: "24/8/2015",
+				$scope.days.push({
+					day: "01/9/2015",
 				    activity: "meeting"});
 			}
-		};       
+		};*/     
 	}
 
 ]);

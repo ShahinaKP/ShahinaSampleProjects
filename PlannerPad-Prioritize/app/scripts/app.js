@@ -1,4 +1,4 @@
-var plannerPad = angular.module('PlannerPad',['ui.sortable','ngRoute']);
+var plannerPad = angular.module('PlannerPad',['ngRoute', 'ngDraggable']);
 
 plannerPad.config(['$routeProvider', function($routeProvider){
 	$routeProvider.
@@ -21,8 +21,21 @@ plannerPad.config(['$routeProvider', function($routeProvider){
 
 plannerPad.directive('ngDay', function() {
 	return {
-    	templateUrl: 'app/directives/day.html'
+		restrict: 'EA',
+    	templateUrl: 'app/directives/day.html',
+    	link: function($scope, $element){
+    		
+    	}
 	}
+});
+
+plannerPad.directive('ngLeftlist', function() {
+    return {
+    	restrict: 'A',
+    	link: function ($scope, $element) {
+        	$element.height($(window).height() - $('header').outerHeight() - $('#mainHeader').outerHeight());
+        }
+    }
 });
 
 

@@ -4,18 +4,20 @@
 	</div>
 	<div class="container-fluid">
 		<div class="row-fluid">
-			<div class="col-md-3">
+			<div ng-leftlist class="leftDiv">
 				<div id="leftList" ng-repeat="categories in categories">
 					<span>{{categories.categoryName}}</span>
-					<ul ui-sortable="sortableOptions" ng-model="categories.activities">				  
+					<ul ng-model="categories.activities">				  
 					  <li ng-repeat="activities in categories.activities">
-					    <span>{{activities.activityName}}</span>
+					    <span ng-drag="true" ng-drag-data="activities" data-allow-transform="true">{{activities.activityName}}</span>
 					  </li>
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-9">
-				<div ng-day></div>				
+			<div class="rightDiv">
+				<div class="day" ng-repeat="day in days" ng-modal="day">
+					<ng-day ng-controller="DragDropController"></ng-day>
+				</div>			
 			</div>
 		</div>
 	</div>

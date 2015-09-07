@@ -45,6 +45,18 @@
 	margin: 0;
 }
 
+.leftDiv{
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	width: 30%;
+}
+
+.rightDiv{
+	float: left;
+	width: 70%;
+}
+
 .day{
 	background-color: #fff;
 	float: left;
@@ -52,6 +64,10 @@
 	margin: 2%;
 	width: 44%;	
 }
+
+/*.day:nth-child(even){
+	float: right;
+}*/
 
 .sunday{
 	background-color: #fff;
@@ -63,6 +79,58 @@
 
 #leftList ul li{
 	cursor: move;
+}
+
+[ng-drag]{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+[ng-drag]{   
+    color:black;
+    text-align: center;
+    padding-top:10px;
+    display: inline-block;
+    margin:0 10px;
+    cursor: move;
+}
+
+[ng-drag].drag-over{
+    border:solid 1px red;
+}
+[ng-drag].dragging{
+    opacity: 0.5;
+}
+[ng-drop]{
+    text-align: left;    
+    /*padding-top:40px;
+    display: block;
+    position: relative;*/
+    float: left;
+    min-height: 50px;
+    width: 100%;
+}
+[ng-drop].drag-enter{
+    border:solid 2px #cccccc;
+}
+[ng-drop] span.title{
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;   
+    margin-left: -100px;
+    margin-top: -10px;
+}
+[ng-drop] div{
+    position: relative;
+    z-index: 2;
+}
+
+span#date {
+    float: left;
+    padding: 10px;
 }
 
 
